@@ -7,4 +7,4 @@ The world is a cruel place, and we are here to deliver kind and motivational wor
 
 ## Screenshot
 
-![Front Page](https://imgur.com/BO8wCzE)
+![Front Page](https://github.com/lephdao/techtogether2020/blob/master/scrshot1.png?raw=true)
