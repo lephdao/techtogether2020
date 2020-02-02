@@ -1,13 +1,14 @@
 {% extends "layout.html" %}
 
 {% block content %}
-	{% for post in posts %}
-		<h1>{{ post.author }}</h1>
-		<p>{{ post.content }}</p>
-	{% endfor %}
-	<div class="row">
-		<div class="col">1 col</div>
-		<div class="col">2 col</div>
-		<div class="col">3 col</div>
+
+	<div class="card text-center">
+	<div class="card-body">
+		{% for post in posts %}
+		<h3>{{ post.author }}</h3>
+			<p>for: {{ post.category }}</p>
+			<p class="lead">{{ post.content }}</p>
+		{% endfor %}
+	</div>
 	</div>
 {% endblock content %}
